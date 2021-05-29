@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Ohtap ECommerce Domain Models Core/1.0.0": {
+        "runtime": {
+          "Ohtap ECommerce Domain Models Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ohtap ECommerce Domain Models Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

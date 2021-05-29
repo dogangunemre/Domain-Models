@@ -1,0 +1,6 @@
+C:\Users\ORAN\Documents\dogangun\Ohtap E Commerce Domain Models\Ohtap E Commerce Domain Models\Development\NetFramework\Models Core\Models Core\bin\Debug\Ohtap ECommerce Domain Models Core.dll
+C:\Users\ORAN\Documents\dogangun\Ohtap E Commerce Domain Models\Ohtap E Commerce Domain Models\Development\NetFramework\Models Core\Models Core\bin\Debug\Ohtap ECommerce Domain Models Core.pdb
+C:\Users\ORAN\Documents\dogangun\Ohtap E Commerce Domain Models\Ohtap E Commerce Domain Models\Development\NetFramework\Models Core\Models Core\obj\Debug\Models Core.csproj.AssemblyReference.cache
+C:\Users\ORAN\Documents\dogangun\Ohtap E Commerce Domain Models\Ohtap E Commerce Domain Models\Development\NetFramework\Models Core\Models Core\obj\Debug\Models Core.csproj.CoreCompileInputs.cache
+C:\Users\ORAN\Documents\dogangun\Ohtap E Commerce Domain Models\Ohtap E Commerce Domain Models\Development\NetFramework\Models Core\Models Core\obj\Debug\Ohtap ECommerce Domain Models Core.dll
+C:\Users\ORAN\Documents\dogangun\Ohtap E Commerce Domain Models\Ohtap E Commerce Domain Models\Development\NetFramework\Models Core\Models Core\obj\Debug\Ohtap ECommerce Domain Models Core.pdb

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models Core", "Models Core\Models Core.csproj", "{FC553AD7-D56C-4359-918A-2D5E6A332D20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC553AD7-D56C-4359-918A-2D5E6A332D20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC553AD7-D56C-4359-918A-2D5E6A332D20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC553AD7-D56C-4359-918A-2D5E6A332D20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC553AD7-D56C-4359-918A-2D5E6A332D20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A05C3A38-D94C-4223-B464-444E3082BEAB}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/Ohtap
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Models\u0020Core\\Models\u0020Core.csproj
+		SccProjectName1 = Models\u0020Core
+		SccLocalPath1 = Models\u0020Core
+	EndGlobalSection
+EndGlobal

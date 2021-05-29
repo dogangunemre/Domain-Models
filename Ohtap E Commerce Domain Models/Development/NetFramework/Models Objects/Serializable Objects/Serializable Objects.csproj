@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F6D34FD5-050D-4D2A-A6E8-076D53D5FB89}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ohtap.ECommerce.Domain.Models.Serializable.Objects</RootNamespace>
+    <AssemblyName>Ohtap ECommerce Domain Models Serializable Objects</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ohtap ECommerce Domain Models Core">
+      <HintPath>..\..\Models Core\Models Core\bin\Debug\Ohtap ECommerce Domain Models Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Addresses\Address.cs" />
+    <Compile Include="Addresses\AddressBasic.cs" />
+    <Compile Include="Addresses\AddressBasicFilter.cs" />
+    <Compile Include="Addresses\AddressList.cs" />
+    <Compile Include="AttributeDetails\AttributeDetail.cs" />
+    <Compile Include="AttributeDetails\AttributeDetailBasic.cs" />
+    <Compile Include="AttributeDetails\AttributeDetailBasicFilter.cs" />
+    <Compile Include="AttributeDetails\AttributeDetailList.cs" />
+    <Compile Include="Attributes\Attribute.cs" />
+    <Compile Include="Attributes\AttributeBasic.cs" />
+    <Compile Include="Attributes\AttributeBasicFilter.cs" />
+    <Compile Include="Attributes\AttributeList.cs" />
+    <Compile Include="Banks\Bank.cs" />
+    <Compile Include="Banks\BankBasic.cs" />
+    <Compile Include="Banks\BankBasicFilter.cs" />
+    <Compile Include="Banks\BankList.cs" />
+    <Compile Include="Brands\Brand.cs" />
+    <Compile Include="Brands\BrandBasic.cs" />
+    <Compile Include="Brands\BrandBasicFilter.cs" />
+    <Compile Include="Brands\BrandList.cs" />
+    <Compile Include="Campaigns\Campaign.cs" />
+    <Compile Include="Campaigns\CampaignBasic.cs" />
+    <Compile Include="Campaigns\CampaignBasicFilter.cs" />
+    <Compile Include="Campaigns\CampaignList.cs" />
+    <Compile Include="Cargos\Cargo.cs" />
+    <Compile Include="Cargos\CargoBasic.cs" />
+    <Compile Include="Cargos\CargoBasicFilter.cs" />
+    <Compile Include="Cargos\CargoList.cs" />
+    <Compile Include="Categories\Category.cs" />
+    <Compile Include="Categories\CategoryBasic.cs" />
+    <Compile Include="Categories\CategoryBasicFilter.cs" />
+    <Compile Include="Categories\CategoryList.cs" />
+    <Compile Include="CategoryDetails\CategoryDetail.cs" />
+    <Compile Include="CategoryDetails\CategoryDetailBasic.cs" />
+    <Compile Include="CategoryDetails\CategoryDetailBasicFilter.cs" />
+    <Compile Include="CategoryDetails\CategoryDetailList.cs" />
+    <Compile Include="CouponDetails\CouponDetail.cs" />
+    <Compile Include="CouponDetails\CouponDetailBasic.cs" />
+    <Compile Include="CouponDetails\CouponDetailBasicFilter.cs" />
+    <Compile Include="CouponDetails\CouponDetailList.cs" />
+    <Compile Include="Coupons\Coupon.cs" />
+    <Compile Include="Coupons\CouponBasic.cs" />
+    <Compile Include="Coupons\CouponBasicFilter.cs" />
+    <Compile Include="Coupons\CouponList.cs" />
+    <Compile Include="Currencies\Currency.cs" />
+    <Compile Include="Currencies\CurrencyBasic.cs" />
+    <Compile Include="Currencies\CurrencyBasicFilter.cs" />
+    <Compile Include="Currencies\CurrencyList.cs" />
+    <Compile Include="CurrencyDetails\CurrencyDetail.cs" />
+    <Compile Include="CurrencyDetails\CurrencyDetailBasic.cs" />
+    <Compile Include="CurrencyDetails\CurrencyDetailBasicFilter.cs" />
+    <Compile Include="CurrencyDetails\CurrencyDetailList.cs" />
+    <Compile Include="Customers\Customer.cs" />
+    <Compile Include="Customers\CustomerBasic.cs" />
+    <Compile Include="Customers\CustomerBasicFilter.cs" />
+    <Compile Include="Customers\CustomerList.cs" />
+    <Compile Include="DiscountDetails\DiscountDetail.cs" />
+    <Compile Include="DiscountDetails\DiscountDetailBasic.cs" />
+    <Compile Include="DiscountDetails\DiscountDetailBasicFilter.cs" />
+    <Compile Include="DiscountDetails\DiscountDetailList.cs" />
+    <Compile Include="Discounts\Discount.cs" />
+    <Compile Include="Discounts\DiscountBasic.cs" />
+    <Compile Include="Discounts\DiscountBasicFilter.cs" />
+    <Compile Include="Discounts\DiscountList.cs" />
+    <Compile Include="Feedbacks\Feedback.cs" />
+    <Compile Include="Feedbacks\FeedbackBasic.cs" />
+    <Compile Include="Feedbacks\FeedbackBasicFilter.cs" />
+    <Compile Include="Feedbacks\FeedbackList.cs" />
+    <Compile Include="Files\File.cs" />
+    <Compile Include="Files\FileBasic.cs" />
+    <Compile Include="Files\FileBasicFilter.cs" />
+    <Compile Include="Files\FileList.cs" />
+    <Compile Include="Invoices\Invoice.cs" />
+    <Compile Include="Invoices\InvoiceBasic.cs" />
+    <Compile Include="Invoices\InvoiceBasicFilter.cs" />
+    <Compile Include="Invoices\InvoiceList.cs" />
+    <Compile Include="LabelDetails\LabelDetail.cs" />
+    <Compile Include="LabelDetails\LabelDetailBasic.cs" />
+    <Compile Include="LabelDetails\LabelDetailBasicFilter.cs" />
+    <Compile Include="LabelDetails\LabelDetailList.cs" />
+    <Compile Include="Labels\Label.cs" />
+    <Compile Include="Labels\LabelBasic.cs" />
+    <Compile Include="Labels\LabelBasicFilter.cs" />
+    <Compile Include="Labels\LabelList.cs" />
+    <Compile Include="LanguageDetails\LanguageDetail.cs" />
+    <Compile Include="LanguageDetails\LanguageDetailBasic.cs" />
+    <Compile Include="LanguageDetails\LanguageDetailBasicFilter.cs" />
+    <Compile Include="LanguageDetails\LanguageDetailList.cs" />
+    <Compile Include="Languages\Language.cs" />
+    <Compile Include="Languages\LanguageBasic.cs" />
+    <Compile Include="Languages\LanguageBasicFilter.cs" />
+    <Compile Include="Languages\LanguageList.cs" />
+    <Compile Include="Manifacturers\Manifacturer.cs" />
+    <Compile Include="Manifacturers\ManifacturerBasic.cs" />
+    <Compile Include="Manifacturers\ManifacturerBasicFilter.cs" />
+    <Compile Include="Manifacturers\ManifacturerList.cs" />
+    <Compile Include="MeasureDetails\MeasureDetail.cs" />
+    <Compile Include="MeasureDetails\MeasureDetailBasic.cs" />
+    <Compile Include="MeasureDetails\MeasureDetailBasicFilter.cs" />
+    <Compile Include="MeasureDetails\MeasureDetailList.cs" />
+    <Compile Include="Measures\Measure.cs" />
+    <Compile Include="Measures\MeasureBasic.cs" />
+    <Compile Include="Measures\MeasureBasicFilter.cs" />
+    <Compile Include="Measures\MeasureList.cs" />
+    <Compile Include="OptionDetails\OptionDetail.cs" />
+    <Compile Include="OptionDetails\OptionDetailBasic.cs" />
+    <Compile Include="OptionDetails\OptionDetailBasicFilter.cs" />
+    <Compile Include="OptionDetails\OptionDetailList.cs" />
+    <Compile Include="Options\Option.cs" />
+    <Compile Include="Options\OptionBasic.cs" />
+    <Compile Include="Options\OptionBasicFilter.cs" />
+    <Compile Include="Options\OptionList.cs" />
+    <Compile Include="OrderItems\OrderItem.cs" />
+    <Compile Include="OrderItems\OrderItemBasic.cs" />
+    <Compile Include="OrderItems\OrderItemBasicFilter.cs" />
+    <Compile Include="OrderItems\OrderList.cs" />
+    <Compile Include="Orders\Order.cs" />
+    <Compile Include="Orders\OrderBasic.cs" />
+    <Compile Include="Orders\OrderBasicFilter.cs" />
+    <Compile Include="Orders\OrderList.cs" />
+    <Compile Include="PackageAttributes\PackageAttribute.cs" />
+    <Compile Include="PackageAttributes\PackageAttributeBasic.cs" />
+    <Compile Include="PackageAttributes\PackageAttributeBasicFilter.cs" />
+    <Compile Include="PackageAttributes\PackageAttributeList.cs" />
+    <Compile Include="PackageDetails\PackageDetail.cs" />
+    <Compile Include="PackageDetails\PackageDetailBasic.cs" />
+    <Compile Include="PackageDetails\PackageDetailBasicFilter.cs" />
+    <Compile Include="PackageDetails\PackageDetailList.cs" />
+    <Compile Include="PackageLabels\PackageLabel.cs" />
+    <Compile Include="PackageLabels\PackageLabelBasic.cs" />
+    <Compile Include="PackageLabels\PackageLabelBasicFilter.cs" />
+    <Compile Include="PackageLabels\PackageLabelList.cs" />
+    <Compile Include="PackageOptions\PackageOption.cs" />
+    <Compile Include="PackageOptions\PackageOptionBasic.cs" />
+    <Compile Include="PackageOptions\PackageOptionBasicFilter.cs" />
+    <Compile Include="PackageOptions\PackageOptionList.cs" />
+    <Compile Include="PackageSpecifications\PackageSpecification.cs" />
+    <Compile Include="PackageSpecifications\PackageSpecificationBasic.cs" />
+    <Compile Include="PackageSpecifications\PackageSpecificationBasicFilter.cs" />
+    <Compile Include="PackageSpecifications\PackageSpecificationList.cs" />
+    <Compile Include="Packages\Package.cs" />
+    <Compile Include="Packages\PackageBasic.cs" />
+    <Compile Include="Packages\PackageBasicFilter.cs" />
+    <Compile Include="Packages\PackageList.cs" />
+    <Compile Include="Payments\Payment.cs" />
+    <Compile Include="Payments\PaymentBasic.cs" />
+    <Compile Include="Payments\PaymentBasicFilter.cs" />
+    <Compile Include="Payments\PaymentList.cs" />
+    <Compile Include="Prices\Price.cs" />
+    <Compile Include="Prices\PriceBasic.cs" />
+    <Compile Include="Prices\PriceBasicFilter.cs" />
+    <Compile Include="Prices\PriceList.cs" />
+    <Compile Include="ProductAttributes\ProductAttribute.cs" />
+    <Compile Include="ProductAttributes\ProductAttributeBasic.cs" />
+    <Compile Include="ProductAttributes\ProductAttributeBasicFilter.cs" />
+    <Compile Include="ProductAttributes\ProductAttributeList.cs" />
+    <Compile Include="ProductDetails\ProductDetail.cs" />
+    <Compile Include="ProductDetails\ProductDetailBasic.cs" />
+    <Compile Include="ProductDetails\ProductDetailBasicFilter.cs" />
+    <Compile Include="ProductDetails\ProductDetailList.cs" />
+    <Compile Include="ProductLabels\ProductLabel.cs" />
+    <Compile Include="ProductLabels\ProductLabelBasic.cs" />
+    <Compile Include="ProductLabels\ProductLabelBasicFilter.cs" />
+    <Compile Include="ProductLabels\ProductLabelList.cs" />
+    <Compile Include="ProductOptions\ProductOption.cs" />
+    <Compile Include="ProductOptions\ProductOptionBasic.cs" />
+    <Compile Include="ProductOptions\ProductOptionBasicFilter.cs" />
+    <Compile Include="ProductOptions\ProductOptionList.cs" />
+    <Compile Include="ProductSpecifications\ProductSpecification.cs" />
+    <Compile Include="ProductSpecifications\ProductSpecificationBasic.cs" />
+    <Compile Include="ProductSpecifications\ProductSpecificationBasicFilter.cs" />
+    <Compile Include="ProductSpecifications\ProductSpecificationList.cs" />
+    <Compile Include="Products\Product.cs" />
+    <Compile Include="Products\ProductBasic.cs" />
+    <Compile Include="Products\ProductBasicFilter.cs" />
+    <Compile Include="Products\ProductList.cs" />
+    <Compile Include="PromotionDetails\PromotionDetail.cs" />
+    <Compile Include="PromotionDetails\PromotionDetailBasic.cs" />
+    <Compile Include="PromotionDetails\PromotionDetailBasicFilter.cs" />
+    <Compile Include="PromotionDetails\PromotionDetailList.cs" />
+    <Compile Include="Promotions\Promotion.cs" />
+    <Compile Include="Promotions\PromotionBasic.cs" />
+    <Compile Include="Promotions\PromotionBasicFilter.cs" />
+    <Compile Include="Promotions\PromotionList.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegionDetails\RegionDetail.cs" />
+    <Compile Include="RegionDetails\RegionDetailBasic.cs" />
+    <Compile Include="RegionDetails\RegionDetailBasicFilter.cs" />
+    <Compile Include="RegionDetails\RegionDetailList.cs" />
+    <Compile Include="Regions\Region.cs" />
+    <Compile Include="Regions\RegionBasic.cs" />
+    <Compile Include="Regions\RegionBasicFilter.cs" />
+    <Compile Include="Regions\RegionList.cs" />
+    <Compile Include="Relations\Relation.cs" />
+    <Compile Include="Relations\RelationBasic.cs" />
+    <Compile Include="Relations\RelationBasicFilter.cs" />
+    <Compile Include="Relations\RelationList.cs" />
+    <Compile Include="Settings\Setting.cs" />
+    <Compile Include="Settings\SettingBasic.cs" />
+    <Compile Include="Settings\SettingBasicFilter.cs" />
+    <Compile Include="Settings\SettingList.cs" />
+    <Compile Include="Shippings\Shipping.cs" />
+    <Compile Include="Shippings\ShippingBasic.cs" />
+    <Compile Include="Shippings\ShippingBasicFilter.cs" />
+    <Compile Include="Shippings\ShippingList.cs" />
+    <Compile Include="SpecificationDetails\SpecificationDetail.cs" />
+    <Compile Include="SpecificationDetails\SpecificationDetailBasic.cs" />
+    <Compile Include="SpecificationDetails\SpecificationDetailBasicFilter.cs" />
+    <Compile Include="SpecificationDetails\SpecificationDetailList.cs" />
+    <Compile Include="Specifications\Specification.cs" />
+    <Compile Include="Specifications\SpecificationBasic.cs" />
+    <Compile Include="Specifications\SpecificationBasicFilter.cs" />
+    <Compile Include="Specifications\SpecificationList.cs" />
+    <Compile Include="Stores\Store.cs" />
+    <Compile Include="Stores\StoreBasic.cs" />
+    <Compile Include="Stores\StoreBasicFilter.cs" />
+    <Compile Include="Stores\StoreList.cs" />
+    <Compile Include="Taxes\Tax.cs" />
+    <Compile Include="Taxes\TaxBasic.cs" />
+    <Compile Include="Taxes\TaxBasicFilter.cs" />
+    <Compile Include="Taxes\TaxList.cs" />
+    <Compile Include="UnitDetails\UnitDetail.cs" />
+    <Compile Include="UnitDetails\UnitDetailBasic.cs" />
+    <Compile Include="UnitDetails\UnitDetailBasicFilter.cs" />
+    <Compile Include="UnitDetails\UnitDetailList.cs" />
+    <Compile Include="Units\Unit.cs" />
+    <Compile Include="Units\UnitBasic.cs" />
+    <Compile Include="Units\UnitBasicFilter.cs" />
+    <Compile Include="Units\UnitList.cs" />
+    <Compile Include="VariationDetails\VariationDetail.cs" />
+    <Compile Include="VariationDetails\VariationDetailBasic.cs" />
+    <Compile Include="VariationDetails\VariationDetailBasicFilter.cs" />
+    <Compile Include="VariationDetails\VariationDetailList.cs" />
+    <Compile Include="Variations\Variation.cs" />
+    <Compile Include="Variations\VariationBasic.cs" />
+    <Compile Include="Variations\VariationBasicFilter.cs" />
+    <Compile Include="Variations\VariationList.cs" />
+    <Compile Include="Warehouses\Warehouse.cs" />
+    <Compile Include="Warehouses\WarehouseBasic.cs" />
+    <Compile Include="Warehouses\WarehouseBasicFilter.cs" />
+    <Compile Include="Warehouses\WarehouseList.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Models Objects\Models Objects.csproj">
+      <Project>{31e06420-0860-492c-aa8d-a3afb27a719a}</Project>
+      <Name>Models Objects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

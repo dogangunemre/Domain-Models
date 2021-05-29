@@ -1,0 +1,99 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Ohtap.ECommerce.Domain.Models.Objects</RootNamespace>
+    <AssemblyName>Ohtap ECommerce Domain Models Objects</AssemblyName>
+    <AppDesignerFolder>Propertiess</AppDesignerFolder>
+    <AssemblyVersion>1.0.0.7</AssemblyVersion>
+    <FileVersion>1.0.0.6</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Accounting\**" />
+    <Compile Remove="Common\**" />
+    <Compile Remove="Current\**" />
+    <Compile Remove="Feedback\**" />
+    <Compile Remove="File\**" />
+    <Compile Remove="LocalizationAndGlobalization\**" />
+    <Compile Remove="Logistic\**" />
+    <Compile Remove="Order\**" />
+    <Compile Remove="Product\**" />
+    <Compile Remove="System\**" />
+    <Compile Remove="User\**" />
+    <Compile Remove="WorkPlace\**" />
+    <EmbeddedResource Remove="Accounting\**" />
+    <EmbeddedResource Remove="Common\**" />
+    <EmbeddedResource Remove="Current\**" />
+    <EmbeddedResource Remove="Feedback\**" />
+    <EmbeddedResource Remove="File\**" />
+    <EmbeddedResource Remove="LocalizationAndGlobalization\**" />
+    <EmbeddedResource Remove="Logistic\**" />
+    <EmbeddedResource Remove="Order\**" />
+    <EmbeddedResource Remove="Product\**" />
+    <EmbeddedResource Remove="System\**" />
+    <EmbeddedResource Remove="User\**" />
+    <EmbeddedResource Remove="WorkPlace\**" />
+    <None Remove="Accounting\**" />
+    <None Remove="Common\**" />
+    <None Remove="Current\**" />
+    <None Remove="Feedback\**" />
+    <None Remove="File\**" />
+    <None Remove="LocalizationAndGlobalization\**" />
+    <None Remove="Logistic\**" />
+    <None Remove="Order\**" />
+    <None Remove="Product\**" />
+    <None Remove="System\**" />
+    <None Remove="User\**" />
+    <None Remove="WorkPlace\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Accountings\BankAccounts\" />
+    <Folder Include="Communications\Addresses\" />
+    <Folder Include="Currents\CustomerGroups\" />
+    <Folder Include="Currents\Customers\" />
+    <Folder Include="Currents\Manufacturers\" />
+    <Folder Include="Currents\Suppliers\" />
+    <Folder Include="DealsandOffers\Coupons\" />
+    <Folder Include="DealsandOffers\Discounts\" />
+    <Folder Include="DealsandOffers\Campaigns\" />
+    <Folder Include="DealsandOffers\Promotions\" />
+    <Folder Include="Extrases\Attributes\" />
+    <Folder Include="Extrases\Labels\" />
+    <Folder Include="Extrases\Specifications\" />
+    <Folder Include="Extrases\Properties\" />
+    <Folder Include="Extrases\Options\" />
+    <Folder Include="Extrases\Tags\" />
+    <Folder Include="LocalizationsandGlobalizations\Languages\" />
+    <Folder Include="LocalizationsandGlobalizations\Currencies\" />
+    <Folder Include="LocalizationsandGlobalizations\Regions\" />
+    <Folder Include="Logistics\Cargos\" />
+    <Folder Include="Logistics\CargoStatuses\" />
+    <Folder Include="Logistics\Shippings\" />
+    <Folder Include="Systems\Logs\" />
+    <Folder Include="Systems\Settings\" />
+    <Folder Include="UserGroups\" />
+    <Folder Include="Users\UserGroups\" />
+    <Folder Include="Users\Users\" />
+    <Folder Include="Users\Sessions\" />
+    <Folder Include="WorkPlaces\Stores\" />
+    <Folder Include="WorkPlaces\Warehouses\" />
+    <Folder Include="İnteractions\Feedbacks\" />
+    <Folder Include="İnteractions\Bookmarks\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Ohtap ECommerce Domain Models Core">
+      <HintPath>..\..\Models Core\Models Core\bin\Debug\netcoreapp3.1\Ohtap ECommerce Domain Models Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

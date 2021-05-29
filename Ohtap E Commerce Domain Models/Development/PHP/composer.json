@@ -1,0 +1,8 @@
+{
+   "autoload": {
+     "psr-4": {
+       "Ohtap\\ECommerce\\DomainModels\\Core\\": "Core",
+       "Ohtap\\ECommerce\\DomainModels\\Objects\\": "Objects"
+     }
+   }
+}

@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Ohtap.ECommerce.Domain.Models.Objects.Orders;
+using CoreSystem = Ohtap.ECommerce.Domain.Models.Core.System;
+
+namespace Ohtap.ECommerce.Domain.Models.Serializable.Objects.Orders
+{
+    public class OrderList : CoreSystem.Lista<IOrderData>, IOrderList
+    {
+    }
+}
